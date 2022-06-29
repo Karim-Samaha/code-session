@@ -1,0 +1,112 @@
+.homeSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* clip-path: polygon(65% 0, 100% 0, 100% 100%, 24% 100%); */
+    background-image: linear-gradient(130deg, #e8f8fc 50%, #2d6197 50%);
+    background-color: white;
+    position: relative;
+}
+
+.homeSection h2 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 28px;
+    color: #0097C2;
+}
+
+.pillarCard {
+    width: 20%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: relative;
+}
+
+.pillarCard img {
+    width: 100%;
+    height: 50%;
+}
+
+.pillarCard .cardInfo {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cardInfo h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+
+.cardInfo .cardDesc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.cardInfo .cardPrice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cardInfo .cardPrice p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.cardIcons svg {
+    width: 48px;
+    height: 48px;
+    background-color: #0000003d;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+
+.cardIcons svg:hover {
+    background-color: #00000080;
+}
+
+.pillarCard a {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 22;
+}
+
+.pillarCard:nth-child(2) .cardInfo {
+    background-color: #0A488F;
+}
+
+.pillarCard:nth-child(3) .cardInfo {
+    background-color: #579064;
+}
+
+.pillarCard:nth-child(4) .cardInfo {
+    background-color: #950000;
+}
+
+.pillarCard:nth-child(5) .cardInfo {
+    background-color: #8F6C0A;
+}

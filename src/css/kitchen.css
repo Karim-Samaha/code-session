@@ -1,0 +1,79 @@
+.kitchen {
+    width: 355px;
+    height: 756px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 999;
+    background-color: #FFFFFF;
+    transition: all .7s ease-in-out;
+}
+
+.kitchenHeader {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #C2CAD4;
+}
+
+.kitchenHeader svg {
+    width: 39px;
+    height: 39px;
+}
+
+.headerRight {
+    position: relative;
+}
+
+.headerRight span {
+    border-radius: 50%;
+    background-color: #FFD900;
+    padding: 1px 3px;
+    position: absolute;
+    top: 0%;
+    right: -5%;
+}
+
+.requests {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #C2CAD4;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 33.3%;
+    border-bottom: 1px solid #C2CAD4;
+}
+
+.product .productLeft,
+.product .productRight {
+    flex: 1;
+}
+
+.product .productRight {
+    color: #0097C2;
+    display: flex;
+    justify-content: center;
+}
+
+.product .productRight svg {
+    height: 36px;
+    width: 36px;
+    margin-left: 5px;
+
+
+}
